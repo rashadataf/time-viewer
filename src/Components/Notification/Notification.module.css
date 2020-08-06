@@ -1,0 +1,13 @@
+/* the main wrapper of the notification component */
+.Notification {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* the ball icon in the notification component */
+.Notification__Ball {
+    position: absolute;
+    top: 0;
+    left: 60%;
+}

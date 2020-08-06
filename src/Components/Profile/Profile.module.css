@@ -1,0 +1,13 @@
+/* the main wrapper of the profile component */
+.Profile {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.16);
+    border: solid 2px #a7b5d2;
+    background-color: #e9edf0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

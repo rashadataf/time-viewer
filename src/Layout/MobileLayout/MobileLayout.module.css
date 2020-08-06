@@ -1,0 +1,40 @@
+/* The wrapper of the mobile layout */
+.MobileLayout {
+    width: 100vw;
+}
+
+/* style for space between elements */
+.MobileLayout__Space {
+    flex: 1;
+}
+
+/* style for space x 2 between elements */
+.MobileLayout__Space_2 {
+    flex: 3;
+}
+
+/* style for the second section of the layout */
+.MobileLayout__SecondSection {
+    width: 100%;
+    height: 102px;
+    opacity: 0.97;
+    background-color: #1f3a6e;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* style for the fourth section of the layout  */
+.MobileLayout__FourthSection {
+    width: 100%;
+    height: 169px;
+    opacity: 0.97;
+    background-color: #153064;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+

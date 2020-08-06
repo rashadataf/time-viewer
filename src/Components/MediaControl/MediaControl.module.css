@@ -1,0 +1,89 @@
+/* the wrapper of the media control component */
+.MediaControl {
+    width: 100%;
+    height: 81px;
+    object-fit: contain;
+    background-image: linear-gradient(65deg, #254176 6%, #1c3668 97%);
+    display: flex;
+    justify-content: center;
+}
+
+/* style for every direct child in the media control component */
+.MediaControl > * {
+    margin: 20px 10px;
+}
+
+/* the internet speed section */
+.MediaControl__InternetSpeed {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* the first p element in the internet speed section */
+.MediaControl__InternetSpeed p:first-child {
+    font-family: LoewNextArabic;
+    font-size: 10px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+/* the last p element in the internet speed section */
+.MediaControl__InternetSpeed p:last-child {
+    font-family: LoewNextArabic;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #a7b5d2;
+}
+
+/* the wifi section */
+.MediaControl__Wifi {
+    width: 41px;
+    height: 41px;
+    object-fit: contain;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 2px #e28519;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* the video section */
+.MediaControl__Video {
+    width: 41px;
+    height: 41px;
+    object-fit: contain;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 2px #e21956;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* the audio section */
+.MediaControl__Audio {
+    width: 41px;
+    height: 41px;
+    object-fit: contain;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 2px #1dd950;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

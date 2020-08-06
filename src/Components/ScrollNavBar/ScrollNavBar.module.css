@@ -1,0 +1,46 @@
+/* the wrapper of the ScrollNavBar component */
+.ScrollNavBar {
+    background-color: #153064;
+    overflow-x: scroll;
+     white-space: nowrap;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Mozilla Firefox */
+ }
+
+/* to hide the scroll bar in chrome web browser */
+.ScrollNavBar::-webkit-scrollbar {
+    display: none;
+}
+
+/* the items of the menu */
+.ScrollNavBar a {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 14px;
+    text-decoration: none;
+    font-family: LoewNextArabic;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #8191b2;
+
+}
+
+/* when hovering over the items */
+.ScrollNavBar a:hover {
+    background-color: #777;
+}
+
+/* when the item is being active */
+.ScrollNavBar a.active {
+    width: 377px;
+    height: 169px;
+    opacity: 0.97;
+    background-color: #153064;
+}
+
+
+

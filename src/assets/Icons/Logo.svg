@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.017" height="52.061" viewBox="0 0 52.017 52.061">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".211" x2=".881" y1=".211" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#0f2756"/>
+            <stop offset="1" stop-color="#1d428b"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1=".144" x2="1" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e83866"/>
+            <stop offset=".244" stop-color="#e83866"/>
+            <stop offset=".715" stop-color="#e57a3c"/>
+            <stop offset="1" stop-color="#e57a3c"/>
+        </linearGradient>
+    </defs>
+    <g id="Group_68" data-name="Group 68">
+        <g id="Group_70" data-name="Group 70">
+            <rect id="Rectangle_968" width="52.017" height="52.017" fill="url(#linear-gradient)" data-name="Rectangle 968" rx="17" transform="translate(0 .044)"/>
+            <path id="Path_988" fill="url(#linear-gradient-2)" d="M874.3 1993.9v6.226h-5.233v6.512h5.233v19s.23 6.188 3.19 8.948 8.773 2.645 8.773 2.645h4.331l.2-7.115s-9.361 2.737-9.094-7.1.357-16.383.357-16.383h8.743v-6.512h-8.737v-6.221z" data-name="Path 988" transform="translate(-860.486 -1993.897)"/>
+        </g>
+    </g>
+</svg>

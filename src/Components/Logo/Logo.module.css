@@ -1,0 +1,37 @@
+/* the wrapper of the logo component */
+.Logo {
+    display: flex;
+    justify-content: space-between;
+    width: 167.9px;
+    height: 52.1px;
+    object-fit: contain;
+
+}
+
+/* the first p element in the text section of the logo */
+.Logo__Text p:first-child {
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+/* the last p element in the text section of the logo */
+.Logo__Text p:last-child {
+    height: 12px;
+    font-family: LoewNextArabic;
+    font-size: 11px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: 1.54px;
+    text-align: left;
+    color: #ffffff;
+}
