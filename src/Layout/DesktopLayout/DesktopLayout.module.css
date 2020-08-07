@@ -1,0 +1,38 @@
+/* The wrapper of the desktop layout */
+.DesktopLayout {
+    width: 100vw;
+}
+
+/* style for space between elements */
+.DesktopLayout__Space {
+    flex: 1;
+}
+
+/* style for space x 2 between elements */
+.DesktopLayout__Space_2 {
+    flex: 1;
+}
+
+/* style for the second section of the layout */
+.DesktopLayout__SecondSection {
+    width: 100%;
+    height: 102px;
+    opacity: 0.97;
+    background-color: #1f3a6e;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* style for the fourth section of the layout  */
+.DesktopLayout__ThirdSection {
+    width: 100vw;
+    height: 92px;
+    background-image: linear-gradient(80deg, #254176 11%, #1c3668 95%);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+

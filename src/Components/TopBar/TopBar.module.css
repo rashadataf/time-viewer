@@ -8,7 +8,7 @@
     padding: 15px 30px;
 }
 
-/* the paragraph element in the top bar */
+/* the paragraph section in the top bar */
 .TopBar__Paragraph {
     width: 105px;
     font-size: 13px;
@@ -24,7 +24,39 @@
     direction: rtl;
 }
 
+/* the image in the paragraph section */
+.TopBar__Paragraph img {
+    display: none;
+}
+
 /* style for space between elements */
 .TopBar__Space {
     flex: 1;
+}
+
+/* media for wide screens */
+@media screen and (min-width: 768px) {
+    .TopBar__Menu {
+        display: none;
+    }
+
+    .TopBar__Paragraph {
+        width: 130px;
+    }
+
+    .TopBar__Paragraph img {
+        display: block;
+    }
+
+    .TopBar__Space {
+        flex: 0;
+    }
+
+    .TopBar__Space__DeskTop {
+        flex: 1;
+    }
+
+    .TopBar__Space__Small {
+        width: 30px;
+    }
 }

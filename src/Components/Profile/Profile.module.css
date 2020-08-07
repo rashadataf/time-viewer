@@ -1,5 +1,15 @@
 /* the main wrapper of the profile component */
 .Profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile__Text {
+    display: none;
+}
+
+.Profile__Image {
     width: 45px;
     height: 45px;
     object-fit: contain;
@@ -10,4 +20,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* media for wide screens */
+@media screen and (min-width: 768px){
+    .Profile__Text {
+        display: block;
+        font-family: LoewNextArabic;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #1c3668;
+        margin: auto 8px;
+    }
+
+    .Profile__Text__Name {
+        font-size: 19px;
+        font-weight: 800;
+    }
 }

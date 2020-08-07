@@ -1,6 +1,5 @@
 /* the wrapper of the ScrollNavBar component */
 .ScrollNavBar {
-    background-color: #153064;
     overflow-x: scroll;
      white-space: nowrap;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -26,7 +25,6 @@
     letter-spacing: normal;
     text-align: right;
     color: #8191b2;
-
 }
 
 /* when hovering over the items */
@@ -40,6 +38,14 @@
     height: 169px;
     opacity: 0.97;
     background-color: #153064;
+}
+
+/* media for wide screens */
+@media screen and (min-width: 768px){
+    .ScrollNavBar {
+        width: 50%;
+        background: none;
+    }
 }
 
 

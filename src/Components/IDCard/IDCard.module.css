@@ -68,6 +68,7 @@
     width: 90px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 /* the p element in the personal information section*/
@@ -81,4 +82,11 @@
     letter-spacing: normal;
     text-align: right;
     color: #a7b5d2;
+}
+
+/* media for wide screens */
+@media screen and (min-width: 768px){
+    .IDCard {
+        width: 300px;
+    }
 }
