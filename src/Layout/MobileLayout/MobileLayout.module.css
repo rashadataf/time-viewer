@@ -1,6 +1,6 @@
 /* The wrapper of the mobile layout */
 .MobileLayout {
-    width: 100vw;
+    width: 100%;
 }
 
 /* style for space between elements */

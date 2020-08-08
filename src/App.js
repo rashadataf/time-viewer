@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import MobileLayout from "./Layout/MobileLayout/MobileLayout";
 import DesktopLayout from "./Layout/DesktopLayout/DesktopLayout";
+import Hoc from "./HOC/Hoc";
+import MainContent from "./Container/MainContent/MainContent";
 
 // the App component represents the whole application
 const App = () => {

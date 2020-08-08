@@ -7,6 +7,8 @@ import Profile from "../../Components/Profile/Profile";
 import Notification from "../../Components/Notification/Notification";
 import IDCard from "../../Components/IDCard/IDCard";
 import TopBar from "../../Components/TopBar/TopBar";
+import {Route} from "react-router-dom";
+import MainContent from "../../Container/MainContent/MainContent";
 
 // MobileLayout Layout will be rendered in the small screens sizes
 const MobileLayout = () => (
@@ -24,6 +26,17 @@ const MobileLayout = () => (
             <IDCard />
             <ScrollNavBar />
         </div>
+        <Route
+            path="/"
+            exact
+            render={({ location }) => {
+                const { pathname, search, hash, state } = location;
+                return (
+                    <MainContent component={state===undefined?'about':state.component} />
+                );
+
+            }}
+        />
     </header>
 );
 

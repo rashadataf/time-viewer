@@ -1,0 +1,124 @@
+.Card {
+    width: 100%;
+    object-fit: contain;
+    opacity: 1;
+    background-image: linear-gradient(326deg, #10306f 82%, rgba(29, 66, 139, 0) 54%);
+    margin: 16px;
+    position: relative;
+}
+
+.Card__Clicked {
+    width: 100% !important;
+}
+
+.Card__Poster {
+    position: relative;
+    width: 100%;
+}
+
+.Card__Poster img:first-child {
+    width: 100%;
+}
+
+.Card__Poster__Null {
+    min-width: 150px;
+    min-height: 150px;
+    background-color: rgb(29, 66, 139);
+}
+
+.Card__Poster__Icon {
+    position: absolute;
+    top: calc(100% - 40px);
+    left: calc(100% - 80px);
+    width: 7%;
+    display: flex;
+}
+
+.Card__Poster__Icon__Video {
+    position: absolute;
+    top: calc(100% - 40px);
+    left: calc(100% - 40px);
+    width: 7%;
+    display: flex;
+}
+
+.Card__Poster__Icon p {
+    font-family: LoewNextArabic;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #8191b2;
+    margin-right: 8px;
+}
+
+.Card__Title {
+    margin-top: 15px;
+    font-family: LoewNextArabic;
+    font-size: 10px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    padding: 8px;
+}
+
+.Card__Info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: LoewNextArabic;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #8191b2;
+    margin: 8px;
+}
+
+.Card__Info__Price {
+    font-size: 9px;
+}
+
+.Card__Info__Price__Num {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.Card__Info__Downloads {
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.Card__Info__Downloads img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .Card__Poster__Null {
+        min-height: 250px;
+    }
+
+    .Card__Info__Price {
+        font-size: 15px;
+    }
+
+    .Card__Info__Price__Num {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .Card__Info__Downloads {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .Card__Info__Downloads img {
+        width: 15px;
+        margin-right: 5px;
+    }
+}

@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 /* adding customized font */
 @font-face {
   font-family: 'LoewNextArabic';

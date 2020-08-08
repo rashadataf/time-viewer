@@ -1,0 +1,94 @@
+.About {
+    width: 100%;
+    box-shadow: 0 5px 86px 0 rgba(0, 0, 0, 0.05);
+    background-color: #2a4986;
+}
+
+.About__Video {
+    width: 100%;
+}
+
+
+.About__Intro {
+    padding: 30px;
+    font-family: LoewNextArabic;
+    font-size: 15px;
+    line-height: 1.93;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+
+.About__Skills {
+    opacity: 0.97;
+    background-color: #153064;
+    direction: rtl;
+    padding: 30px;
+}
+
+.About__Skills__Title {
+    font-family: LoewNextArabic;
+    font-size: 15px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.93;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+
+.About__Skills__List {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.About__Skills__List__Skill {
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #223c6e;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About__Skills__List__Skill__Text {
+    font-family: LoewNextArabic;
+    font-size: 11px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: right;
+    color: #a7b5d2;
+}
+
+@media screen and (min-width: 768px){
+    .About {
+        width: 100%;
+        display: flex;
+        background-color: #2a4986;
+    }
+
+    .About__Video {
+        width: 60%;
+        margin: 16px;
+
+    }
+    .About__Video__Second {
+        width: 40%;
+        padding: 16px;
+        background-color: #153064;
+    }
+
+    .About__Intro {
+        background-color: #2a4986;
+    }
+}

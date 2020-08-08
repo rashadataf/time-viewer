@@ -34,10 +34,9 @@
 
 /* when the item is being active */
 .ScrollNavBar a.active {
-    width: 377px;
-    height: 169px;
-    opacity: 0.97;
-    background-color: #153064;
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
 }
 
 /* media for wide screens */

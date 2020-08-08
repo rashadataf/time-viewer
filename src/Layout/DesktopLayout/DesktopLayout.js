@@ -7,6 +7,8 @@ import Notification from "../../Components/Notification/Notification";
 import MediaControl from "../../Components/MediaControl/MediaControl";
 import IDCard from "../../Components/IDCard/IDCard";
 import ScrollNavBar from "../../Components/ScrollNavBar/ScrollNavBar";
+import MainContent from "../../Container/MainContent/MainContent";
+import {Route} from "react-router-dom";
 
 // Desktop Layout will be rendered in the big screens sizes
 const DesktopLayout = () => (
@@ -24,7 +26,17 @@ const DesktopLayout = () => (
             <MediaControl />
             <ScrollNavBar />
         </div>
+        <Route
+            path="/"
+            exact
+            render={({ location }) => {
+                const { pathname, search, hash, state } = location;
+                return (
+                    <MainContent component={state===undefined?'about':state.component} />
+                );
 
+            }}
+        />
     </header>
 );
 
